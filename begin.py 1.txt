@@ -1,0 +1,295 @@
+storona_a = int(input("Введите число: "))
+storona_b = int(input("Введите число: "))
+nums_1 = storona_a * storona_b
+nums_2 = (storona_a * storona_b) * 2
+print(nums_1)
+print(nums_2)#begin2
+
+storona_d = int(input("Введите число: "))
+storona_p = 3.14
+nums_3 = storona_d * storona_p
+print(nums_3)#begin3
+
+storona_d = int(input("Введите число: "))
+storona_p = 3.14
+nums_3 = storona_d * storona_p
+print(nums_3)#begin3
+
+storona_2a = int(input("Введите число: "))
+nums_4 = storona_2a ** 3
+nums_5 = (storona_2a ** 2) *6
+print(nums_4)
+print(nums_5)#begin4
+
+
+storona_3a = int(input("Введите число: "))
+storona_2b = int(input("Введите число b: "))
+storona_c = int(input("Введите число c: "))
+nums_6 = storona_3a * storona_2b * storona_c
+nums_7 = 2*(storona_3a*storona_2b + storona_2b * storona_c + storona_3a * storona_c)
+print(nums_6)
+print(nums_7)#begin5
+
+storona_2p = int(input("Введите число: "))
+storona_r = int(input("Введите число: "))
+nums_l = 2 * storona_2p * storona_r
+nums_s = storona_2p * (storona_r ** 2)
+print(nums_l)
+print(nums_s)#begin6
+
+storona_4a = int(input("Введите число: "))
+storona_3b = int(input("Введите число: "))
+nums_8 = (storona_4a + storona_3b)/2
+print(nums_8)#20:39 3 min Monin Roman#begin7
+
+
+storona_5a = float(input(Введите число: ))
+storona_4b = float(input(Введите число: ))
+print((storona_5a * storona_4b) ** 0.5)#begin8
+
+ storona_a = float(input("Введите число: "))
+storona_b = float(input("Введите число: "))
+
+print(storona_a**2 + storona_b**2)
+print(storona_a**2 - storona_b**2)
+print(storona_a**2 * storona_b**2)
+print(storona_a**2 / storona_b**2) # begin9
+
+import math
+
+PI = 3.14 
+a = float(input("Введите число: "))
+b = float(input("Введите число: "))
+a2, b2 = a ** 2, b ** 2
+print("Сумма квадратов:", a2 + b2)
+print("Разность квадратов:", a2 - b2)
+print("Произведение квадратов:", a2 * b2)
+print("Частное квадратов:", a2 / b2)#begin 10
+
+    a = float(input("Введите число: "))
+    b = float(input("Введите число: "))
+    ma, mb = abs(a), abs(b)
+    print("Сумма модулей:", ma + mb)
+    print("Разность модулей:", ma - mb)
+    print("Произведение модулей:", ma * mb)
+    print("Частное модулей:", ma / mb)#begin 11
+
+    a = float(input("Введите число: "))
+    b = float(input("Введите число: "))
+    c = math.sqrt(a ** 2 + b ** 2)
+    p = a + b + c
+    print("Гипотенуза c:", c)
+    print("Периметр P:", p)#begin 12
+
+    r1 = float(input("Введите число: "))
+    r2 = float(input("Введите число: "))
+    s1 = PI * r1 ** 2
+    s2 = PI * r2 ** 2
+    s3 = s1 - s2
+    print("S1:", s1)
+    print("S2:", s2)
+    print("S3:", s3)#begin 13
+
+    l = float(input("Введите число: "))
+    r = l / (2 * PI)
+    s = PI * r ** 2
+    print("Радиус R:", r)
+    print("Площадь S:", s)#begin 14
+
+    s = float(input("Введите число: "))
+    r = math.sqrt(s / PI)
+    d = 2 * r
+    l = 2 * PI * r
+    print("Диаметр D:", d)
+    print("Длина окружности L:", l)#begin 15
+
+    x1 = float(input("Введите число: "))
+    x2 = float(input("Введите число: "))
+    print("Расстояние:", abs(x2 - x1))#begin 16
+
+    a = float(input("Введите число: "))
+    b = float(input("Введите число: "))
+    c = float(input("Введите число: "))
+    ac = abs(c - a)
+    bc = abs(c - b)
+    print("AC:", ac)
+    print("BC:", bc)
+    print("Сумма:", ac + bc)#begin 17
+
+    a = float(input("Введите число: "))
+    b = float(input("Введите число: "))
+    c = float(input("Введите число: "))
+    ac = abs(c - a)
+    bc = abs(c - b)
+    print("Произведение AC*BC:", ac * bc)#begin 18
+
+    x1 = float(input("Введите число: "))
+    y1 = float(input("Введите число: "))
+    x2 = float(input("Введите число: "))
+    y2 = float(input("Введите число: "))
+    w = abs(x2 - x1)
+    h = abs(y2 - y1)
+    print("Периметр:", 2 * (w + h))
+    print("Площадь:", w * h)#begin 19
+
+
+
+def begin20():
+    x1 = float(input("Введите число: "))
+    y1 = float(input("Введите число: "))
+    x2 = float(input("Введите число: "))
+    y2 = float(input("Введите число: "))
+    d = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+    print("Расстояние:", d)#begin20
+
+    x1 = float(input("Введите число: "))
+    y1 = float(input("Введите число: "))
+    x2 = float(input("Введите число: "))
+    y2 = float(input("Введите число: "))
+    x3 = float(input("Введите число: "))
+    y3 = float(input("Введите число: "))
+    a = math.sqrt((x3 - x2) ** 2 + (y3 - y2) ** 2)
+    b = math.sqrt((x3 - x1) ** 2 + (y3 - y1) ** 2)
+    c = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+    perimeter = a + b + c
+    p = perimeter / 2
+    area = math.sqrt(p * (p - a) * (p - b) * (p - c))
+    print("Периметр:", perimeter)
+    print("Площадь:", area)#begin21
+
+    a = float(input("Введите число: "))
+    b = float(input("Введите число: "))
+    a, b = b, a
+    print("A:", a)
+    print("B:", b)#begin22
+
+    a = float(input("Введите число: "))
+    b = float(input("Введите число: "))
+    c = float(input("Введите число: "))
+    a, b, c = c, a, b
+    print("A:", a)
+    print("B:", b)
+    print("C:", c)#begin23
+
+
+    a = float(input("Введите число: "))
+    b = float(input("Введите число: "))
+    c = float(input("Введите число: "))
+    a, b, c = b, c, a
+    print("A:", a)
+    print("B:", b)
+    print("C:", c)#begin24
+
+    x = float(input("Введите число: "))
+    y = 3 * x ** 6 - 6 * x ** 2 - 7 * x ** 3 + 2
+    print("y:", y)#begin25
+
+    x = float(input("Введите число: "))
+    t = x - 3
+    y = 4 * t ** 6 - 7 * t ** 3 + 2
+    print("y:", y)#begin26
+
+    a = float(input("Введите число: "))
+    a2 = a * a
+    a4 = a2 * a2
+    a8 = a4 * a4
+    print("A^2:", a2)
+    print("A^4:", a4)
+    print("A^8:", a8)#begin27
+
+    a = float(input("Введите число: "))
+    a2 = a * a
+    a3 = a2 * a
+    a5 = a3 * a2
+    a10 = a5 * a5
+    a15 = a10 * a5
+    print("A^2:", a2)
+    print("A^3:", a3)
+    print("A^5:", a5)
+    print("A^10:", a10)
+    print("A^15:", a15)#begin28
+
+    alpha_deg = float(input("Введите число: "))
+    alpha_rad = alpha_deg * PI / 180
+    print("Угол в радианах:", alpha_rad)#begin29
+
+    alpha_rad = float(input("Введите число: "))
+    alpha_deg = alpha_rad * 180 / PI
+    print("Угол в градусах:", alpha_deg)#begin30
+
+    t_f = float(input("Введите число: "))
+    t_c = (t_f - 32) * 5 / 9
+    print("Температура в градусах Цельсия:", t_c)#begin31
+
+    t_c = float(input("Введите число: "))
+    t_f = t_c * 9 / 5 + 32
+    print("Температура в градусах Фаренгейта:", t_f)#begin32
+
+    x = float(input("Введите число: "))
+    a = float(input("Введите число: "))
+    y = float(input("Введите число: "))
+    price_per_kg = a / x
+    price_y = price_per_kg * y
+    print("Цена 1 кг:", price_per_kg)
+    print("Цена Y кг:", price_y)#begin33
+
+    x = float(input("Введите число: "))
+    a = float(input("Введите число: "))
+    y = float(input("Введите число: "))
+    b = float(input("Введите число: "))
+    price_choc = a / x
+    price_iris = b / y
+    ratio = price_choc / price_iris
+    print("Цена 1 кг шоколадных конфет:", price_choc)
+    print("Цена 1 кг ирисок:", price_iris)
+    print("Во сколько раз конфеты дороже ирисок:", ratio)#begin34
+
+    v = float(input("Введите число: "))
+    u = float(input("Введите число: "))
+    t1 = float(input("Введите число: "))
+    t2 = float(input("Введите число: "))
+    s = t1 * v + t2 * (v - u)
+    print("Путь S:", s)#begin35
+
+    v1 = float(input("Введите число: "))
+    v2 = float(input("Введите число: "))
+    s = float(input("Введите число: "))
+    t = float(input("Введите число: "))
+    result = s + t * (v1 + v2)
+    print("Расстояние через T часов:", result)#begin36
+
+    v1 = float(input("Введите число: "))
+    v2 = float(input("Введите число: "))
+    s = float(input("Введите число: "))
+    t = float(input("Введите число: "))
+    result = abs(s - t * (v1 + v2))
+    print("Расстояние через T часов:", result)#begin37
+
+    a = float(input("Введите число: "))
+    b = float(input("Введите число: "))
+    x = -b / a
+    print("Корень x:", x)#begin38
+
+    a = float(input("Введите число: "))
+    b = float(input("Введите число: "))
+    c = float(input("Введите число: "))
+    d = b ** 2 - 4 * a * c
+    sqrt_d = math.sqrt(d)
+    x1 = (-b - sqrt_d) / (2 * a)
+    x2 = (-b + sqrt_d) / (2 * a)
+    print("Меньший корень:", min(x1, x2))
+    print("Больший корень:", max(x1, x2))#begin39
+
+    a1 = float(input("Введите число: "))
+    b1 = float(input("Введите число: "))
+    c1 = float(input("Введите число: "))
+    a2 = float(input("Введите число: "))
+    b2 = float(input("Введите число: "))
+    c2 = float(input("Введите число: "))
+    d = a1 * b2 - a2 * b1
+    x = (c1 * b2 - c2 * b1) / d
+    y = (a1 * c2 - a2 * c1) / d
+    print("x:", x)
+    print("y:", y)#begin40
+
+
